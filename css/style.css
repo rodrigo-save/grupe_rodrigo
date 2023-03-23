@@ -20,6 +20,12 @@ h1{
     font-size: 15px;
     text-align: right;
 }
+.menu a{
+    color: aquamarine;
+    font-style: normal;
+    font-size: 20px;
+    
+}
 .offer{
     border-color:  #9b8b4a;
     border-radius: 5px;
@@ -29,6 +35,19 @@ h1{
 }
 .offer a{
     color: #9b8b4a;
+}
+.chamada p{
+    text-align: center;
+}
+.bt1 {
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.bt1 a{
+    color: green;
+    font-size: 15px;
 }
 .banner{
     background-color: rgb(64, 163, 234);
