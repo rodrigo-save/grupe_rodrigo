@@ -1,0 +1,41 @@
+
+h1{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+}
+.topmenu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.topmenu ul li{
+    display: inline;
+    margin: 15px;
+}
+.brand p{
+    color: aquamarine;
+    font-size: 15px;
+    text-align: right;
+}
+.offer{
+    border-color:  #9b8b4a;
+    border-radius: 5px;
+    border-width: 1px;
+    background: transparent;
+    opacity: 0,8;
+}
+.offer a{
+    color: #9b8b4a;
+}
+.banner{
+    background-color: rgb(64, 163, 234);
+
+}
+.sobre h2{
+    font-size: 16px;
+    color: darkgreen;
+    
+}
