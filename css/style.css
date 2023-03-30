@@ -1,60 +1,335 @@
 
-h1{
-    font-size: 20px;
-    color: brown;
-    text-align: center;
-    font-weight: 600;
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
-.topmenu {
+
+.title {
+  font-family: 'Flamenco', sans-serif;
+  font-size: larger;
+  color: #484848;
+  width: 100%;
+}
+.topbar {
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    font-size:medium;
+    padding: 20px;
+}
+
+.topbar img {
+  width: 90px;
+}
+
+.topbar ul li {
+    display: inline;
+    list-style: none;
+    padding: 8px 14px;
+}
+
+.topbar ul a {
+    text-decoration: none;
+    color: #e3e7e7;
+    opacity: 0.8;
+}
+
+.topbar ul a:hover {
+    opacity: 1;
+}
+
+.topbar .link-quero {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9d8b47;
+    border-radius: 5px;
+}
+
+.topbar .link-quero a {
+    color: #9d8b47;
+}
+
+/*
+ * HEADER
+ */
+
+header {
+    background: url(../img/bg-banner.png);
+    background-size: cover;
+    min-height: 86vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro h1,
+.intro p {
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: 'Flamenco';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.text-background {
+    font-size: 18px;
+    color: #e3e7e7;
+    margin-bottom: 50px;
+}
+.texts-intro {
+    font-size: 18px;
+    color: #e3e7e7;
+}
+
+.text {
+    font-size: 18px;
+    width: 60%;
+    color: #9F9F9F;
 
 }
-.topmenu ul li{
-    display: inline;
-    margin: 15px;
+
+.intro a {
+    text-decoration: none;
+    color: #907b41;
+    background: #ffdd71;
+    padding: 9px 25px;
+    border-radius: 4px;
+    margin-top: 26px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: medium;
 }
-.brand p{
-    color: aquamarine;
-    font-size: 15px;
-    text-align: right;
+
+/*
+ * MAIN SOBRE
+ */
+
+.sobre > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
 }
-.menu a{
-    color: aquamarine;
-    font-style: normal;
-    font-size: 20px;
-    
+
+.desc-sobre {
+    max-width: 60%;
+    margin-left: 30px;
 }
-.offer{
-    border-color:  #9b8b4a;
-    border-radius: 5px;
-    border-width: 1px;
-    background: transparent;
-    opacity: 0,8;
+
+.sobre img {
+    width: 100px;
+    padding: 50px;
 }
-.offer a{
-    color: #9b8b4a;
+
+/*
+ * MAIN PASSO-A-PASSO
+ */
+
+.warning {
+    font-weight: bold;
+    font-size: 18px;
+    color: #696969;
 }
-.chamada p{
+
+.passo > div {
+    display: inline-block;
+    width: 32%;
+}
+
+.passo {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 auto; 
+    align-items: flex-start;
+}
+
+.passo div > .text {
+    margin: 0 auto;
+}
+
+.passo-a-passo {
+    display: block;
     text-align: center;
 }
-.bt1 {
-    background-color: yellow;
-    border-color: yellow;
-    border-radius: 5px;
-    border-width: 1px;
-}
-.bt1 a{
-    color: green;
-    font-size: 15px;
-}
-.banner{
-    background-color: rgb(64, 163, 234);
 
+.passo img {
+    width: 130px;
 }
-.sobre h2{
-    font-size: 16px;
-    color: darkgreen;
+
+/*
+ * MAIN SERVIÇOS
+ */
+
+.servicos {
+    background: url(../img/bg-servicos.png);
+    background-size: cover;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+
+.consultoriaeroteiro div {
+    width: 350px;
+    background-color:#2bc1d1;
+    padding: 30px 60px;
+    margin: 0% 30px;
+    min-height: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+}
     
+.consultoriaeroteiro{
+    display: flex;
+    align-items: center;
+    justify-content: center
+} 
+
+.consultoriaeroteiro a {
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    background-color: #fedd6a;
+    color: #8c7744;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 26px; 
+    cursor: pointer;
+
+    
+}
+
+
+.curiosidades {
+    background: url(../img/bg-numeros.png);
+    background-size: cover;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.curiosidades h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+.destaques {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.destaques div {
+    width: 200px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.por{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #9d8b47;
+    text-align: center;
+}
+
+.contato h2{
+    text-align: center;
+}
+.name, .email, .assunto, .mensagem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form input {
+    width: 100%;
+    height: 30px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.formulario button {
+    text-decoration: none;
+    color: white;
+    background: #2bc1d1;
+    padding: 9px 25px;
+    border-radius: 4px;
+    margin-top: 26px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.class fique {
+    background-color: #fedd6a;
+}
+
+.newsletter {
+    background-color: #fedd6a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.title {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+}
+
+.news {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.news input {
+    width: 60%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.news button {
+    text-decoration: none;
+    color: white;
+    background: #2bc1d1;
+    padding: 9px 25px;
+    border-radius: 4px;
+    margin-top: 26px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between
 }

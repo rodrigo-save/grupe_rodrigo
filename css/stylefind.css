@@ -1,0 +1,60 @@
+
+h1{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+}
+.topmenu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.topmenu ul li{
+    display: inline;
+    margin: 15px;
+}
+.brand p{
+    color: aquamarine;
+    font-size: 15px;
+    text-align: right;
+}
+.menu a{
+    color: aquamarine;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+.offer{
+    border-color:  #9b8b4a;
+    border-radius: 5px;
+    border-width: 1px;
+    background: transparent;
+    opacity: 0,8;
+}
+.offer a{
+    color: #9b8b4a;
+}
+.header p{
+    text-align: center;
+}
+.bt1 {
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.bt1 a{
+    color: green;
+    font-size: 15px;
+}
+.banner{
+    background-color: rgb(64, 163, 234);
+
+}
+.sobre h2{
+    font-size: 16px;
+    color: darkgreen;
+    
+}
